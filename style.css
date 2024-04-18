@@ -51,23 +51,25 @@ font-weight: 400;
     margin-bottom: 1px;
     min-height: 200px;
     position: relative;
-    z-index: 1;
     background-image: url(images/salat.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    filter: brightness(70%);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    color: white;
 }
 
 .recept {
     margin-bottom: 1px;
     min-height: 90px;
     position: relative;
-    z-index: 1;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    filter: brightness(70%);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    color: white;
 }
 
 .recept2 {
@@ -93,7 +95,6 @@ h2 {
     padding: 10px;
     position: absolute;
     bottom: 0; 
-    z-index: 10;
 }
 
 .hlavni-recept h2 {
@@ -109,7 +110,6 @@ h2 {
     padding: 10px;
     position: absolute;
     top: 0;
-    z-index: 10;
 }
 
 .recept-komentare {
@@ -118,7 +118,6 @@ h2 {
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 10;
 }
 
 @media (min-width: 480px) {
@@ -194,4 +193,3 @@ h2 {
         font-size: 28px;
     }
 }
-
